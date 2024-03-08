@@ -59,3 +59,6 @@ def deletar_livro(id):
       del livros[indice]
   
   return jsonify(livros)
+
+if __name__ == '__main__':
+  app.run(debug=True)
